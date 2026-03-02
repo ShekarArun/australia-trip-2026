@@ -21,7 +21,7 @@ const ROUTES = {
     color: COLORS.reef,
     days: [
       {
-        date: "13 Nov (Thu)",
+        date: "13 Nov (Fri)",
         title: "Arrive Melbourne",
         location: "Melbourne",
         type: "travel",
@@ -30,16 +30,16 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "14 Nov (Fri)",
-        title: "Concert Day 🎵",
+        date: "14 Nov (Sat)",
+        title: "Foo Fighters 🎵",
         location: "Melbourne",
         type: "event",
-        notes: "Concert day! Explore Melbourne during the day — Queen Victoria Market in the morning, street art in Hosier Lane, coffee culture in the CBD. Concert in the evening.",
+        notes: "Foo Fighters day! Explore Melbourne during the day — Queen Victoria Market in the morning, street art in Hosier Lane, coffee culture in the CBD. Foo Fighters in the evening.",
         driving: null,
         highlight: true,
       },
       {
-        date: "15 Nov (Sat)",
+        date: "15 Nov (Sun)",
         title: "Melbourne → Canberra",
         location: "Canberra",
         type: "drive",
@@ -48,7 +48,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "16 Nov (Sun)",
+        date: "16 Nov (Mon)",
         title: "Canberra → Sydney",
         location: "Sydney",
         type: "drive",
@@ -57,7 +57,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "17 Nov (Mon)",
+        date: "17 Nov (Tue)",
         title: "Sydney → Port Macquarie",
         location: "Port Macquarie",
         type: "drive",
@@ -66,16 +66,16 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "18 Nov (Tue)",
-        title: "Port Macquarie → Brisbane 🎵",
+        date: "18 Nov (Wed)",
+        title: "Port Macquarie → Brisbane · Iron Maiden 🎵",
         location: "Brisbane",
         type: "event",
-        notes: "Drive to Brisbane. Stop at Coffs Harbour for the Big Banana (iconic kitsch). Arrive Brisbane with time to freshen up. Concert in the evening!",
+        notes: "Drive to Brisbane. Stop at Coffs Harbour for the Big Banana (iconic kitsch). Arrive Brisbane with time to freshen up. Iron Maiden in the evening!",
         driving: "530 km · ~6 hrs",
         highlight: true,
       },
       {
-        date: "19 Nov (Wed)",
+        date: "19 Nov (Thu)",
         title: "Brisbane → Byron Bay",
         location: "Byron Bay",
         type: "drive",
@@ -84,7 +84,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "20 Nov (Thu)",
+        date: "20 Nov (Fri)",
         title: "Gold Coast Hinterland",
         location: "Gold Coast / Springbrook",
         type: "explore",
@@ -93,7 +93,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "21 Nov (Fri)",
+        date: "21 Nov (Sat)",
         title: "Fly Brisbane → Cairns ✈",
         location: "Cairns",
         type: "flight",
@@ -102,7 +102,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "22 Nov (Sat)",
+        date: "22 Nov (Sun)",
         title: "Great Barrier Reef 🐠",
         location: "Great Barrier Reef",
         type: "explore",
@@ -111,7 +111,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "23 Nov (Sun)",
+        date: "23 Nov (Mon)",
         title: "Daintree Rainforest 🌿",
         location: "Daintree",
         type: "explore",
@@ -120,7 +120,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "24 Nov (Mon)",
+        date: "24 Nov (Tue)",
         title: "Fly Cairns → Melbourne ✈",
         location: "Melbourne",
         type: "flight",
@@ -129,7 +129,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "25 Nov (Tue)",
+        date: "25 Nov (Wed)",
         title: "Great Ocean Road Day 1",
         location: "Apollo Bay / Lorne",
         type: "drive",
@@ -138,7 +138,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "26 Nov (Wed)",
+        date: "26 Nov (Thu)",
         title: "Great Ocean Road Day 2",
         location: "Twelve Apostles → Melbourne",
         type: "drive",
@@ -147,11 +147,11 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "27–28 Nov (Thu–Fri)",
+        date: "27–28 Nov (Fri–Sat)",
         title: "Fly Home ✈",
         location: "Melbourne",
         type: "travel",
-        notes: "Buffer day on the 27th for last-minute shopping (Melbourne's arcades and laneways), or sleep in and pack. Fly out 27th or 28th depending on your booking.",
+        notes: "Buffer day on the 27th for last-minute shopping (Melbourne's arcades and laneways), or sleep in and pack. Fly out 27th or 28th to be back in India by 29 Nov.",
         driving: null,
         highlight: false,
       },
@@ -164,7 +164,7 @@ const ROUTES = {
     color: COLORS.sunset,
     days: [
       {
-        date: "13 Nov (Thu)",
+        date: "13 Nov (Fri)",
         title: "Arrive Melbourne",
         location: "Melbourne",
         type: "travel",
@@ -173,16 +173,16 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "14 Nov (Fri)",
-        title: "Concert Day 🎵",
+        date: "14 Nov (Sat)",
+        title: "Foo Fighters 🎵",
         location: "Melbourne",
         type: "event",
-        notes: "Explore Melbourne by day. Concert at night.",
+        notes: "Explore Melbourne by day. Foo Fighters at night.",
         driving: null,
         highlight: true,
       },
       {
-        date: "15 Nov (Sat)",
+        date: "15 Nov (Sun)",
         title: "Melbourne → Canberra",
         location: "Canberra",
         type: "drive",
@@ -191,7 +191,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "16 Nov (Sun)",
+        date: "16 Nov (Mon)",
         title: "Canberra → Sydney",
         location: "Sydney",
         type: "drive",
@@ -200,7 +200,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "17 Nov (Mon)",
+        date: "17 Nov (Tue)",
         title: "Sydney → Port Macquarie",
         location: "Port Macquarie",
         type: "drive",
@@ -209,16 +209,16 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "18 Nov (Tue)",
-        title: "Port Macquarie → Brisbane 🎵",
+        date: "18 Nov (Wed)",
+        title: "Port Macquarie → Brisbane · Iron Maiden 🎵",
         location: "Brisbane",
         type: "event",
-        notes: "Arrive Brisbane, concert evening.",
+        notes: "Arrive Brisbane. Iron Maiden in the evening.",
         driving: "530 km · ~6 hrs",
         highlight: true,
       },
       {
-        date: "19 Nov (Wed)",
+        date: "19 Nov (Thu)",
         title: "Brisbane → Byron Bay",
         location: "Byron Bay",
         type: "drive",
@@ -227,7 +227,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "20 Nov (Thu)",
+        date: "20 Nov (Fri)",
         title: "Gold Coast Hinterland",
         location: "Springbrook / Lamington",
         type: "explore",
@@ -236,7 +236,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "21 Nov (Fri)",
+        date: "21 Nov (Sat)",
         title: "Brisbane → Coffs Harbour",
         location: "Coffs Harbour",
         type: "drive",
@@ -245,7 +245,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "22 Nov (Sat)",
+        date: "22 Nov (Sun)",
         title: "Coffs Harbour → Blue Mountains",
         location: "Blue Mountains",
         type: "drive",
@@ -254,7 +254,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "23 Nov (Sun)",
+        date: "23 Nov (Mon)",
         title: "Blue Mountains Day",
         location: "Blue Mountains",
         type: "explore",
@@ -263,7 +263,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "24 Nov (Mon)",
+        date: "24 Nov (Tue)",
         title: "Blue Mountains → Jervis Bay",
         location: "Jervis Bay",
         type: "drive",
@@ -272,7 +272,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "25 Nov (Tue)",
+        date: "25 Nov (Wed)",
         title: "Jervis Bay → Melbourne",
         location: "Melbourne",
         type: "drive",
@@ -281,7 +281,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "26 Nov (Wed)",
+        date: "26 Nov (Thu)",
         title: "Great Ocean Road",
         location: "Twelve Apostles",
         type: "drive",
@@ -290,11 +290,11 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "27–28 Nov (Thu–Fri)",
+        date: "27–28 Nov (Fri–Sat)",
         title: "Fly Home ✈",
         location: "Melbourne",
         type: "travel",
-        notes: "Buffer day, shopping, fly out.",
+        notes: "Buffer day, shopping, fly out. Need to be in India by 29 Nov.",
         driving: null,
         highlight: false,
       },
@@ -307,7 +307,7 @@ const ROUTES = {
     color: COLORS.bush,
     days: [
       {
-        date: "13 Nov (Thu)",
+        date: "13 Nov (Fri)",
         title: "Arrive Melbourne",
         location: "Melbourne",
         type: "travel",
@@ -316,16 +316,16 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "14 Nov (Fri)",
-        title: "Concert Day 🎵",
+        date: "14 Nov (Sat)",
+        title: "Foo Fighters 🎵",
         location: "Melbourne",
         type: "event",
-        notes: "Explore Melbourne. Concert at night.",
+        notes: "Explore Melbourne. Foo Fighters at night.",
         driving: null,
         highlight: true,
       },
       {
-        date: "15 Nov (Sat)",
+        date: "15 Nov (Sun)",
         title: "Melbourne → Canberra",
         location: "Canberra",
         type: "drive",
@@ -334,7 +334,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "16 Nov (Sun)",
+        date: "16 Nov (Mon)",
         title: "Canberra → Sydney",
         location: "Sydney",
         type: "drive",
@@ -343,7 +343,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "17 Nov (Mon)",
+        date: "17 Nov (Tue)",
         title: "Sydney → Port Macquarie",
         location: "Port Macquarie",
         type: "drive",
@@ -352,16 +352,16 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "18 Nov (Tue)",
-        title: "Port Macquarie → Brisbane 🎵",
+        date: "18 Nov (Wed)",
+        title: "Port Macquarie → Brisbane · Iron Maiden 🎵",
         location: "Brisbane",
         type: "event",
-        notes: "Arrive for the concert.",
+        notes: "Arrive for Iron Maiden.",
         driving: "530 km · ~6 hrs",
         highlight: true,
       },
       {
-        date: "19 Nov (Wed)",
+        date: "19 Nov (Thu)",
         title: "Byron Bay",
         location: "Byron Bay",
         type: "drive",
@@ -370,7 +370,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "20 Nov (Thu)",
+        date: "20 Nov (Fri)",
         title: "Fly Brisbane → Melbourne ✈",
         location: "Melbourne",
         type: "flight",
@@ -379,7 +379,7 @@ const ROUTES = {
         highlight: false,
       },
       {
-        date: "21 Nov (Fri)",
+        date: "21 Nov (Sat)",
         title: "Great Ocean Road Day 1",
         location: "Apollo Bay",
         type: "drive",
@@ -388,7 +388,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "22 Nov (Sat)",
+        date: "22 Nov (Sun)",
         title: "Great Ocean Road Day 2",
         location: "Warrnambool",
         type: "drive",
@@ -397,7 +397,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "23 Nov (Sun)",
+        date: "23 Nov (Mon)",
         title: "Warrnambool → Grampians",
         location: "Grampians National Park",
         type: "drive",
@@ -406,7 +406,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "24 Nov (Mon)",
+        date: "24 Nov (Tue)",
         title: "Grampians → Coonawarra",
         location: "Coonawarra",
         type: "drive",
@@ -415,7 +415,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "25 Nov (Tue)",
+        date: "25 Nov (Wed)",
         title: "Coonawarra → McLaren Vale",
         location: "McLaren Vale",
         type: "drive",
@@ -424,7 +424,7 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "26 Nov (Wed)",
+        date: "26 Nov (Thu)",
         title: "Adelaide & Barossa Valley",
         location: "Adelaide / Barossa",
         type: "explore",
@@ -433,11 +433,11 @@ const ROUTES = {
         highlight: true,
       },
       {
-        date: "27–28 Nov (Thu–Fri)",
+        date: "27–28 Nov (Fri–Sat)",
         title: "Fly Home from Adelaide ✈",
         location: "Adelaide",
         type: "travel",
-        notes: "Fly out of Adelaide instead of Melbourne — saves backtracking. Most international flights connect via Melbourne or Sydney.",
+        notes: "Fly out of Adelaide instead of Melbourne — saves backtracking. Most international flights connect via Melbourne or Sydney. Need to be in India by 29 Nov.",
         driving: null,
         highlight: false,
       },
@@ -553,7 +553,7 @@ export default function AustraliaItinerary() {
               fontFamily: "'Trebuchet MS', 'Lucida Sans', sans-serif",
             }}
           >
-            November 2025
+            November 2026
           </div>
           <h1
             style={{
